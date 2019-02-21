@@ -47,7 +47,8 @@ public:
 		Time res;
 		res.m_Data = this->m_Data + timer.m_Data;
 		return res;
-	}
+	}
+
 	Time operator* (const Time & timer) // call with Time T  = Time * Time
 	{
 		Time res;
@@ -61,7 +62,8 @@ public:
 	friend Time operator* (int m, const Time & timer);
 private:
 	int m_Data;
-};
+};
+
 Time operator*(int m, const Time & timer) // call with Time T = operator*( int, Time t) or Time T = int * Time
 {
 	Time time;
