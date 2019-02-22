@@ -18,5 +18,11 @@
     <ClCompile Include="0.友元.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1.强制类型转换.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.关键字.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
