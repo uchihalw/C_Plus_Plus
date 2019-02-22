@@ -27,5 +27,8 @@
     <ClCompile Include="3.虚函数和多态.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4.委托相关设计.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
