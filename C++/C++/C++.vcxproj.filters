@@ -30,5 +30,11 @@
     <ClCompile Include="4.委托相关设计.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="5.堆 栈与内存管理.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6.复现string的实现过程.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
