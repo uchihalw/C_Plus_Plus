@@ -7,7 +7,9 @@
  * @Note:
  
  */
-
+
+
+
 1.dynamic_cast <type_name> (expression) : type_name的类型与expression的类型一样，为类指针类型or引用
 	
 	作用：

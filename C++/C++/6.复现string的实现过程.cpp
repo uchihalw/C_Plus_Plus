@@ -52,5 +52,11 @@ String& String:: operator=(const String& str)
 	delete[] m_data;
 	m_data = new char[strlen[str.m_data] + 1];
 	strcpy(m_data, str.m_data);
-	return *this; // 假设返回值为"hello",但是此返回值有可能赋值给A、B、C。此情况下不能return value by reference
+	return *this;
+	/* 
+	int x, y, z;
+	x = y = z = 15;
+	赋值采用右结合律，所以上述连锁赋值被解析为:x = (y = (x = 15))
+	为实现连锁赋值，赋值操作符必须返回一个reference指向操作符的左侧实参。
+	*/
 }

@@ -117,6 +117,7 @@
     <ClCompile Include="4.委托相关设计.cpp" />
     <ClCompile Include="5.堆 栈与内存管理.cpp" />
     <ClCompile Include="6.复现string的实现过程.cpp" />
+    <ClCompile Include="7.拷贝构造与拷贝赋值.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
