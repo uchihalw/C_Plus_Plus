@@ -39,5 +39,8 @@
     <ClCompile Include="7.拷贝构造与拷贝赋值.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="8.RTTI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
