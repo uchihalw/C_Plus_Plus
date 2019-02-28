@@ -48,5 +48,8 @@
     <ClCompile Include="10.静态联编和动态联编.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="11.static和类模板和函数模板.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
