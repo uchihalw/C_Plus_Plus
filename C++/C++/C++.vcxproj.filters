@@ -45,5 +45,8 @@
     <ClCompile Include="9.组合和继承与委托.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10.静态联编和动态联编.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
