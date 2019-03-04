@@ -45,11 +45,11 @@ String::String(const String& str)
 	strcpy(m_data, str);
 }
 
-String& String:: operator=(const String& str)
+String& String:: operator=(const String& str) // s2 = s1
 {
 	if (this == &str) // 拷贝赋值一定要注意是不是自我赋值
 		return *this;
-	delete[] m_data;
+	delete[] m_data; // 右手和左手都有东西，要将左手给右手，需要先丢掉左手中现有的东西(m_data)。
 	m_data = new char[strlen[str.m_data] + 1];
 	strcpy(m_data, str.m_data);
 	return *this;
@@ -60,3 +60,14 @@ String& String:: operator=(const String& str)
 	为实现连锁赋值，赋值操作符必须返回一个reference指向操作符的左侧实参。
 	*/
 }
+void main()
+{
+	String s1();
+	String s2("Hello");
+	String s3(s1); // 拷贝||克隆
+
+	s3 = s2; // 赋值
+}
+// String s2(s1); == String s2 = s1;
+
+class with pointer members 必须有copy ctor 和 copy op=
