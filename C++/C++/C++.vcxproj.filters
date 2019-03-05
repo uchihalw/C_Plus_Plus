@@ -51,5 +51,8 @@
     <ClCompile Include="11.static和类模板和函数模板.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="12.智能指针.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
