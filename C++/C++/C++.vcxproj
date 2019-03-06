@@ -116,6 +116,8 @@
     <ClCompile Include="11.static和类模板和函数模板.cpp" />
     <ClCompile Include="12.智能指针.cpp" />
     <ClCompile Include="13.函数指针.cpp" />
+    <ClCompile Include="14.转换函数.cpp" />
+    <ClCompile Include="15.non-explicit-one-argument ctor.cpp" />
     <ClCompile Include="2.关键字.cpp" />
     <ClCompile Include="3.虚函数和多态.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
