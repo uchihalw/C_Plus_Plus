@@ -63,5 +63,11 @@
     <ClCompile Include="15.non-explicit-one-argument ctor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="16.stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="17.异常.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

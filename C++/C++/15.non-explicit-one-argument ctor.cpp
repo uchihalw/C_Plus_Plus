@@ -7,6 +7,11 @@
  * @Note:
  
  */
+
+
+
+0.构造函数虽然有two parameters（两个形参），但只有one argument，且构造函数前面没有explicit，所以叫做non - explicit - one - argument constructor。
+
 // version_1
 class Fraction
 {
@@ -78,3 +83,4 @@ private:
 
 Fraction f(3, 5);
 double d2 = 4 + f; // [Error] conversion from double to Fraction requested
+// 由于在构造函数前面增加了explicit关键字，所以不能将4转换成Fraction类型；也不能先将f转换成double类型，与4相加后再将double转换成Fraction。
