@@ -34,6 +34,22 @@ public:
 	explicit auto_ptr(x *p = 0) throw();
 };
 
+
+shared_ptr:
+template <class T>
+class shared_ptr
+{
+public:
+	T& operator*() const { return *px; }
+	T* operator->() const { return px; }
+	shared_ptr(T* p) :px(p) {}
+private:
+	T* px;
+	long* pn;
+
+};
+
+
 #include <memory>
 void remodel(siring &str)
 {
@@ -128,3 +144,4 @@ vocation = ps;
 			shared_ptr<int> spp(pup);        // not allowed
 			shared_ptr<int> spr(make());     // ok
 			// shared_ptr包含一个显示构造函数，可用于将右值unique_ptr转换为shared_ptr。shared_ptr将接管原来归unique_ptr所有的对象。
+

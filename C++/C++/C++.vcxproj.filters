@@ -69,5 +69,8 @@
     <ClCompile Include="17.异常.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="18.仿函数.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

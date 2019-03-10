@@ -120,6 +120,7 @@
     <ClCompile Include="15.non-explicit-one-argument ctor.cpp" />
     <ClCompile Include="16.stack.cpp" />
     <ClCompile Include="17.异常.cpp" />
+    <ClCompile Include="18.仿函数.cpp" />
     <ClCompile Include="2.关键字.cpp" />
     <ClCompile Include="3.虚函数和多态.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
