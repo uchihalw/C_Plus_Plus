@@ -121,7 +121,9 @@
     <ClCompile Include="16.stack.cpp" />
     <ClCompile Include="17.异常.cpp" />
     <ClCompile Include="18.仿函数.cpp" />
+    <ClCompile Include="19.类的继承.cpp" />
     <ClCompile Include="2.关键字.cpp" />
+    <ClCompile Include="20.泛型编程.cpp" />
     <ClCompile Include="3.虚函数和多态.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
     <ClCompile Include="5.堆 栈与内存管理.cpp" />

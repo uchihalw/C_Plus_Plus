@@ -72,5 +72,11 @@
     <ClCompile Include="18.仿函数.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="19.类的继承.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20.泛型编程.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
