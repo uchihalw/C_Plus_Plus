@@ -78,5 +78,11 @@
     <ClCompile Include="20.泛型编程.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="21.Lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="22.适配器和可变参数模板.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
