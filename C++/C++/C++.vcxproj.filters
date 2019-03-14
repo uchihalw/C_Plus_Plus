@@ -15,24 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0.友元.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1.强制类型转换.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2.关键字.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="3.虚函数和多态.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="4.委托相关设计.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="5.堆 栈与内存管理.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="6.复现string的实现过程.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -82,6 +64,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="22.适配器和可变参数模板.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.堆 栈与内存管理.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4.委托相关设计.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3.虚函数和多态.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.关键字.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.强制类型转换.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="0.友元.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23.线程启动_结束_创建.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
