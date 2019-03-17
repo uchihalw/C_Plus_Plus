@@ -13,7 +13,7 @@
 		static  char str[] = "hello"
 		return str;
 	}
-	cout << func_0(); // 正常输出,static修饰，表示存储在静态存储区
+	cout << func_0(); // 正常输出,static修饰，表示存储在静态存储区。
 
 1. 能返回用new创建的局部变量(因为在堆空间)
 	char* func_1()
