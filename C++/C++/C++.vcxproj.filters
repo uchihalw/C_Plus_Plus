@@ -90,5 +90,8 @@
     <ClCompile Include="27.互斥量概念_死锁演示.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="28.unique_lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
