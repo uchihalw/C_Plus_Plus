@@ -129,6 +129,7 @@
     <ClCompile Include="26.多线程和数据共享.cpp" />
     <ClCompile Include="27.互斥量概念_死锁演示.cpp" />
     <ClCompile Include="28.unique_lock.cpp" />
+    <ClCompile Include="29.单例设计模式共享数据分析.cpp" />
     <ClCompile Include="3.虚函数和多态.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
     <ClCompile Include="5.堆 栈与内存管理.cpp" />
