@@ -96,5 +96,11 @@
     <ClCompile Include="29.单例设计模式共享数据分析.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="30.condition_variable+wait+notify_one+notify_all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="31.async+future+packaged_task+promise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
