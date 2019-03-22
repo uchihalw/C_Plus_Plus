@@ -133,6 +133,9 @@
     <ClCompile Include="3.虚函数和多态.cpp" />
     <ClCompile Include="30.condition_variable+wait+notify_one+notify_all.cpp" />
     <ClCompile Include="31.async+future+packaged_task+promise.cpp" />
+    <ClCompile Include="32.future其他成员函数_atomic.cpp" />
+    <ClCompile Include="33.atomic续谈_async深入.cpp" />
+    <ClCompile Include="3x.函数杂谈.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
     <ClCompile Include="5.堆 栈与内存管理.cpp" />
     <ClCompile Include="6.复现string的实现过程.cpp" />

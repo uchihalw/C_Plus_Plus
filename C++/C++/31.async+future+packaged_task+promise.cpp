@@ -43,7 +43,7 @@ void main()
 	  如果wait()或者get()被调用，线程根本就没有创建出来
 	2.launch::async:表示调用async函数的时候就开始创建线程。
 	  不需要get或者wait线程就会自动启动
-	  async函数默认用的这个参数
+	  ERR:async函数默认用的这个参数
 
 	3.async|deferred 不能联合使用
 

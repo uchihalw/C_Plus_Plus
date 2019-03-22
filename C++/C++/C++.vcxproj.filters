@@ -102,5 +102,14 @@
     <ClCompile Include="31.async+future+packaged_task+promise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="32.future其他成员函数_atomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3x.函数杂谈.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="33.atomic续谈_async深入.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
