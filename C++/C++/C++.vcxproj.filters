@@ -111,5 +111,14 @@
     <ClCompile Include="33.atomic续谈_async深入.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="34.windows临界区_其他各种mutex互斥量.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="35.补充知识_线程池浅谈_数量谈.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="36.多线程总结.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

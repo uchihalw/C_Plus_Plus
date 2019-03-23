@@ -135,6 +135,9 @@
     <ClCompile Include="31.async+future+packaged_task+promise.cpp" />
     <ClCompile Include="32.future其他成员函数_atomic.cpp" />
     <ClCompile Include="33.atomic续谈_async深入.cpp" />
+    <ClCompile Include="34.windows临界区_其他各种mutex互斥量.cpp" />
+    <ClCompile Include="35.补充知识_线程池浅谈_数量谈.cpp" />
+    <ClCompile Include="36.多线程总结.cpp" />
     <ClCompile Include="3x.函数杂谈.cpp" />
     <ClCompile Include="4.委托相关设计.cpp" />
     <ClCompile Include="5.堆 栈与内存管理.cpp" />
