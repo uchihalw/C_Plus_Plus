@@ -42,6 +42,23 @@
 	1.lamdba的使用
 		auto mod3 = [](int x) { return x % 3 == 0; };
 		int cnt4 = count_if(numbers.begin(), numbers.end(), mod3);
+2. 仅当lambda表达式完全由一条返回语句组成时，自动类型推断才管用；
+   否则，需要使用新增的返回类型后置语法
+   [] (double x) {return x;}
+	[](double x)->double {x = x + 1.0; return x; }
 
+3. lambda可访问作用域内的任何动态变量:要捕获要使用的变量，可将其名称放在中括号内
+	int cnt;
+	cnt = std::count_if(vec.begin(), vec.end(), [] int(x) { return x; })
 
+	// equal to
+	int cnt = 0;
+	for_each(vec.begin(), vec.end(), [&cnt] int(x) { return x= x+cnt; });
+
+	// [&cnt]使得lambda在其代码中使用可以使用cnt,又由于cnt是按引用捕获的，因此lambda中的任何修改都将影响原始cnt
+
+4. [&]使得能够在lambda中使用所有的自动变量，包括cnt2、cnt1
+	int cnt1 = 0;
+	int cnt2 = 0;
+	std::for_each(vec.begin(), vec.end(), [&] int(x) { return x = x + cnt1 + cnt2; })
 
