@@ -146,6 +146,10 @@
     <ClCompile Include="7.拷贝构造与拷贝赋值.cpp" />
     <ClCompile Include="8.RTTI.cpp" />
     <ClCompile Include="9.组合和继承与委托.cpp" />
+    <ClCompile Include="C:\Users\GBW\Desktop\fix2ix.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\GBW\Desktop\fix2ix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
