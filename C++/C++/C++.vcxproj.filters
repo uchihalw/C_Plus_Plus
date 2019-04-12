@@ -123,12 +123,12 @@
     <ClCompile Include="37.RAII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\GBW\Desktop\fix2ix.c">
+    <ClCompile Include="fix2ix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\GBW\Desktop\fix2ix.h">
+    <ClInclude Include="fix2ix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
