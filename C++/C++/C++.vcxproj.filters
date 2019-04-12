@@ -120,5 +120,8 @@
     <ClCompile Include="36.多线程总结.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="37.RAII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
