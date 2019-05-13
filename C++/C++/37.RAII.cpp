@@ -69,7 +69,7 @@ public:
 		cout << "~ArrayOperation is called" << endl;
 		if (m_Array != NULL)
 		{
-			delete[] m_Array;  // 非常感谢益可达非常犀利的review，详细可以参加益可达在本文的评论 2014.04.13
+			delete[] m_Array;  
 			m_Array = NULL;
 		}
 	}
