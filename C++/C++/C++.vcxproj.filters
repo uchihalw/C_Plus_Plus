@@ -126,6 +126,9 @@
     <ClCompile Include="fix2ix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="38.复制对象.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fix2ix.h">
